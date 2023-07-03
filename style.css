@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 120px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}
+
+.boardcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 120px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+
+.boxes {
+  width: 100px;
+  height: 100px;
+  border: 8px red dotted;
+  margin: 10px;
+  font-size: 80px;
+
+}
+
+.boxes:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.start {
+  margin: 50px;
+}
+.startBtn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.startBtn:hover {
+  background-color: red;
+  color: black;
+  cursor: pointer;
+  border-color: white 10px;
+  font-family: 'Dancing Script', cursive;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
